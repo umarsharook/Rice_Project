@@ -1,4 +1,4 @@
-# 🌾 Rice Type Identification AI
+# Rice Type Identification AI
 
 This project uses **Deep Learning with TensorFlow** and a **Streamlit-based web interface** to identify rice grain types from images. It supports classification of 5 rice varieties:
 
@@ -10,16 +10,16 @@ This project uses **Deep Learning with TensorFlow** and a **Streamlit-based web 
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Upload and analyze rice images via a web interface
-- ✅ Real-time rice type prediction with confidence scores
-- ✅ Transfer learning using MobileNetV2
-- ✅ Easily train your own model with custom datasets
+-  Upload and analyze rice images via a web interface
+-  Real-time rice type prediction with confidence scores
+-  Transfer learning using MobileNetV2
+-  Easily train your own model with custom datasets
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 
@@ -39,9 +39,9 @@ Rice\_Identification\_Project/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 Make sure Python 3.7+ is installed.
 
@@ -53,9 +53,9 @@ pip install streamlit tensorflow numpy pillow
 
 ---
 
-## 🧠 Model Training
+##  Model Training
 
-### 📁 Dataset Setup
+### Dataset Setup
 
 Organize your dataset like this:
 
@@ -72,9 +72,9 @@ dataset/
 └── Brown/
 ```
 
-> 📝 Each class should have 50–100+ images for better performance.
+> Each class should have 50–100+ images for better performance.
 
-### 🔁 Train the Model
+### Train the Model
 
 To train the model using the provided script:
 
@@ -90,7 +90,7 @@ This will:
 
 ---
 
-## 🖥️ Run the Web App
+##  Run the Web App
 
 To start the Streamlit app:
 
@@ -99,7 +99,7 @@ streamlit run Rice_project.py
 ```
 
 Then open your browser and visit:
-👉 [http://localhost:8501](http://localhost:8501)
+ [http://localhost:8501](http://localhost:8501)
 
 ---
 
@@ -111,16 +111,16 @@ Then open your browser and visit:
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
-* 🧠 TensorFlow / Keras
-* 🖼️ MobileNetV2 (Transfer Learning)
-* 🧮 NumPy
-* 🖌️ Pillow (PIL)
-* 🌐 Streamlit (for frontend)
+*  TensorFlow / Keras
+*  MobileNetV2 (Transfer Learning)
+*  NumPy
+*  Pillow (PIL)
+*  Streamlit (for frontend)
 
 
-## 💡 Future Improvements
+## Future Improvements
 
 * Add more rice varieties
 * Improve dataset size and balance
