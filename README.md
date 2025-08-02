@@ -103,7 +103,7 @@ Then open your browser and visit:
 
 ---
 
-## 📷 Using the Application
+## Using the Application
 
 1. Upload a rice grain image
 2. Click "Predict"
